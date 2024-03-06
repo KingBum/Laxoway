@@ -1,0 +1,76 @@
+{
+    "status": 200,
+    "data": {
+      "items": [
+        {
+          "id": 4890461,
+          "departure_time": 1706185800000,
+          "raw_departure_time": "19:30",
+          "raw_departure_date": "25-01-2024",
+          "arrival_time": 1706250600000,
+          "duration": 18,
+          "seat_type_id": 403,
+          "seat_type_name": "Giường",
+          "price": 400000,
+          "empty_seat_quantity": 41,
+          "route_id": 1103,
+          "distance": 745,
+          "route": {
+            "name": "Da Nang ⇒ Ha Noi",
+            "route_id": 1103,
+            "origin_code": "DANANG",
+            "origin_name": "Đà Nẵng",
+            "origin_hub_id": 18,
+            "origin_hub_name": "Bến Xe Trung Tâm Đà Nẵng",
+            "origin_hub_office_id": 52,
+            "origin_hub_office_name": "Đà Nẵng",
+            "origin_hub_coords": {
+              "lat": 16.0565364,
+              "lon": 108.1725454
+            },
+            "dest_code": "HANOI",
+            "dest_name": "Hà Nội",
+            "dest_hub_id": 32,
+            "dest_hub_name": "Bến Xe Giáp Bát",
+            "dest_hub_office_id": 151,
+            "dest_hub_office_name": "BX Giáp Bát",
+            "dest_hub_coords": {
+              "lat": 20.9802148,
+              "lon": 105.8414544
+            }
+          },
+          "pickup_points": [
+            {
+              "OfficeId": 52,
+              "Name": "Da Nang",
+              "Address": "VP Đà Nẵng,  201 - 203 Tôn Đức Thắng, phường Hòa Minh, quận Liên Chiểu. , TP.Đà Nẵng",
+              "Phone": "02363. 786.786",
+              "PointKindName": "Bến xe khởi hành"
+            },
+            {
+              "OfficeId": 143,
+              "Name": "BXN Huế",
+              "Address": "VP Huế, 97 An Dương Vương , P.An Đông , TP.Huế , Tỉnh Thừa Thiên Huế",
+              "Phone": "02343.870.870",
+              "PointKindName": "Bến xe trung gian"
+            },
+            {
+              "OfficeId": 151,
+              "Name": "BX Giáp Bát",
+              "Address": "VP: Bến xe Giáp Bát, P. Giáp Bát, TP. Hà Nội",
+              "Phone": "0243.665.8822",
+              "PointKindName": "Bến đến"
+            },
+            {
+              "OfficeId": 243,
+              "Name": "Quang Binh",
+              "Address": "VP Quản Bình:",
+              "Phone": "0",
+              "PointKindName": "Bến xe trung gian"
+            }
+          ]
+        }
+      ],
+      "total": 1
+    }
+  }
